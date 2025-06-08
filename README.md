@@ -1,5 +1,9 @@
 # code-challenge-1
 
+chaiboraingredientscalculator
+bodafarecalculator
+mobilemoneyestimator
+
 ## chai calculator
 
 javascript program used to calculate the exact amount of ingredients required to make one or more cups of Kenyan chai.
@@ -13,10 +17,10 @@ on browser click shift, ctrl and J to see return.
 
 ### how it works
 
-run code, on prompt, user enter number of cups he/she wants.
+open the .js in a code editor or browser,run code on open Devtools(shift+cntrl+J), on prompt, user enter number of cups he/she wants.
 the calculator gets the number of cups creates internal variables for each ingredient.
 nested functions returns prints required ingredients.
-a message is returned saying (Enjoy your chai Bora).
+a message is returned showing output in the console plus (Enjoy your chai Bora).
 
 ### sample of output
 
@@ -58,12 +62,12 @@ logs breakdown.
 ### sample output
 
 Boda Fare Breakdown:
-fare.js:12 Umbali: 5 km
-fare.js:13 Ukikalia Pikipiki (Base Fare): KES 50
-fare.js:14 Mpaka Uko (Distance Fare): KES 75
-fare.js:15 Jumla ya Fare: KES 125
+fare.js:11 Uko kwote?:io ni 4 km
+fare.js:12 Ukikalia Pikipiki : KES 50
+fare.js:13 Mpaka Uko : KES 60
+fare.js:14 total: KES 110
 
-fare.js:28 Panda Pikipiki!
+fare.js:27 Panda Pikipiki!
 
 ### usage
 
@@ -90,11 +94,16 @@ then you will see breakdown: amount, transaction and total to debited.
 
 ### sample output
 
-Boda Fare Breakdown:
-fare.js:12 Umbali: 3 km
-fare.js:13 Ukikalia Pikipiki (Base Fare): KES 50
-fare.js:14 Mpaka Uko (Distance Fare): KES 45
-fare.js:15 Jumla ya Fare: KES 95
+sending: KES 1000.00
+fee.js:16 calculated Transaction Fee: KES 15.00
+fee.js:17 total amount to be debited: KES 1015.00
 
-fare.js:28 Panda Pikipiki!
-fee.js:1 Uncaught SyntaxError: Identifier 'input' has already been declared (at fee.js:1:1)
+fee.js:28 Send Money Securely!
+
+## Author
+
+created by peter NM for educational purpose. feel free to fork and use for learning purpose
+
+## license
+
+This project is licensed under the PNM license. open for use ,sharing and modification with attribution.
