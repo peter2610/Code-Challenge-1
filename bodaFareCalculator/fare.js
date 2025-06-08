@@ -20,3 +20,8 @@ const totalFare = baseFare + (distanceInKm * chargePerKm);
 // Prompt user for input
 const input = prompt("Unafika wapi Mkubwa? kilometer ngapi?:");
 const distance = parseFloat(input);
+
+// Use the calculator closure
+const calculateBodaFare = createBodaFareCalculator();
+const result = calculateBodaFare(distance);
+console.log(result);
