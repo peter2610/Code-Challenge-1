@@ -15,3 +15,6 @@ return function estimateTransactionFee(amountToSend) {
     console.log(` sending: KES ${amountToSend.toFixed(2)}`);
     console.log(` calculated Transaction Fee: KES ${fee.toFixed(2)}`);
     console.log(` total amount to be debited: KES ${total.toFixed(2)}\n`);
+    return "Send Money Securely!";
+  };
+}
