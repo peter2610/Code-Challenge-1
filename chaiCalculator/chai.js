@@ -17,3 +17,11 @@ return function printAndReturnMessage() {
     };
   };
 }
+// Prompt user for input:
+const input = prompt("Karibu! How many cups of Chai Bora would you like to make?");
+const cups = parseInt(input);
+
+// Call the  functions 
+const message = chaiCalculator(cups)()(); // Invoke all functions
+console.log(message); // Shows final return
+
