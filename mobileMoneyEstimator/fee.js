@@ -18,3 +18,11 @@ return function estimateTransactionFee(amountToSend) {
     return "Send Money Securely!";
   };
 }
+
+// Prompt user for input
+const input = prompt("Unatuma Ngapi? (KES):");
+const amount = parseFloat(input);
+
+const estimateFee = createTransactionFeeEstimator();
+const message = estimateFee(amount);
+if (message) console.log(message);
