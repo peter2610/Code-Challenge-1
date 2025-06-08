@@ -6,8 +6,6 @@ function chaiCalculator(numberOfCups) {
 
   // First function returns another function 
   return function ingredientBreakdown() {
-    const greeting = "Karibu!";
-return function printAndReturnMessage() {
       console.log(`${greeting} To make ${numberOfCups} cups of Kenyan Chai, you will need:`);
       console.log(`Water: ${water} ml`);
       console.log(`Milk: ${milk} ml`);
@@ -18,7 +16,7 @@ return function printAndReturnMessage() {
   };
 }
 // Prompt user for input:
-const input = prompt("Karibu! How many cups of Chai Bora would you like to make?");
+const input = prompt("How many cups of Chai Bora would you like to make?");
 const cups = parseInt(input);
 
 // Call the  functions 

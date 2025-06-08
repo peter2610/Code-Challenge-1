@@ -2,7 +2,7 @@ function createBodaFareCalculator(baseFare = 50, chargePerKm = 15) {
   // Outer lexical scope: defines the base pricing
   return function calculateFare(distanceInKm) {
     if (isNaN(distanceInKm) || distanceInKm < 0) {
-      return "Tafadhali ingiza nambari sahihi ya kilometer!";
+      return "Unafika wapi Mkubwa? Kilometer ngapi?:";
     }
 const totalFare = baseFare + (distanceInKm * chargePerKm);
     const distanceCharge = distanceInKm * chargePerKm;
@@ -18,7 +18,7 @@ const totalFare = baseFare + (distanceInKm * chargePerKm);
 }
 
 // Prompt user for input
-const input = prompt("Unafika wapi Mkubwa? kilometer ngapi?:");
+const input = prompt("Unafika wapi Mkubwa? kilometer ngapi?");
 const distance = parseFloat(input);
 
 // Use the calculator closure
