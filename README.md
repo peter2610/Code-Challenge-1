@@ -36,3 +36,37 @@ Copy the `chaiCalculator` code into a `.html` file within a `<script>` tag or us
 Open in the browser.
 Enter the number of cups when prompted.
 Check the console for ingredient details and final message. shift,ctrl+ j.
+
+## bodaFarecalculator
+
+javascript program that helps user calculate estimate cost of boda boda(motorcycle) ride based on the distance they plan to ride.
+
+### features
+
+calculates fare based on distance in kms.
+shows base fare and per km charge are shown clearly.
+includes input validation for user friendly interactions
+returns a meaningful message after calcualting
+
+### how it works
+
+on running code, the fare calculator prompts distance in kms.
+enter number of kilometers.
+it computes the total fare in reference to the kms.
+logs breakdown.
+
+### sample output
+
+Boda Fare Breakdown:
+fare.js:12 Umbali: 5 km
+fare.js:13 Ukikalia Pikipiki (Base Fare): KES 50
+fare.js:14 Mpaka Uko (Distance Fare): KES 75
+fare.js:15 Jumla ya Fare: KES 125
+
+fare.js:28 Panda Pikipiki! Safari Njema!
+
+### usage
+
+paste the code into your browser console or run with node.js .
+enter the distance when prompted // fare is kilometers.
+see fare breakdown and total.
