@@ -63,7 +63,7 @@ fare.js:13 Ukikalia Pikipiki (Base Fare): KES 50
 fare.js:14 Mpaka Uko (Distance Fare): KES 75
 fare.js:15 Jumla ya Fare: KES 125
 
-fare.js:28 Panda Pikipiki! Safari Njema!
+fare.js:28 Panda Pikipiki!
 
 ### usage
 
@@ -96,5 +96,5 @@ fare.js:13 Ukikalia Pikipiki (Base Fare): KES 50
 fare.js:14 Mpaka Uko (Distance Fare): KES 45
 fare.js:15 Jumla ya Fare: KES 95
 
-fare.js:28 Panda Pikipiki! Safari Njema!
+fare.js:28 Panda Pikipiki!
 fee.js:1 Uncaught SyntaxError: Identifier 'input' has already been declared (at fee.js:1:1)
