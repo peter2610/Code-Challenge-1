@@ -4,3 +4,11 @@ function createBodaFareCalculator(baseFare = 50, chargePerKm = 15) {
     if (isNaN(distanceInKm) || distanceInKm < 0) {
       return "Tafadhali ingiza nambari sahihi ya kilometer!";
     }
+const totalFare = baseFare + (distanceInKm * chargePerKm);
+    const distanceCharge = distanceInKm * chargePerKm;
+
+    console.log("Boda Fare Breakdown:");
+    console.log(`Uko kwote?:io ni ${distanceInKm} km`);
+    console.log(` Ukikalia Pikipiki : KES ${baseFare}`);
+    console.log(`Mpaka Uko : KES ${distanceCharge}`);
+    console.log(`total: KES ${totalFare}\n`);
