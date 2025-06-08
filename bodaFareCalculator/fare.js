@@ -12,3 +12,11 @@ const totalFare = baseFare + (distanceInKm * chargePerKm);
     console.log(` Ukikalia Pikipiki : KES ${baseFare}`);
     console.log(`Mpaka Uko : KES ${distanceCharge}`);
     console.log(`total: KES ${totalFare}\n`);
+
+    return "Panda Pikipiki!";
+  };
+}
+
+// Prompt user for input
+const input = prompt("Unafika wapi Mkubwa? kilometer ngapi?:");
+const distance = parseFloat(input);
