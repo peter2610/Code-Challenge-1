@@ -4,4 +4,6 @@ function chaiCalculator(numberOfCups) {
   const teaLeaves = 1 * numberOfCups;       // tablespoons
   const sugar = 2 * numberOfCups;           // teaspoons
 
-  
+  // First function returns another function 
+  return function ingredientBreakdown() {
+    const greeting = "Karibu!";
