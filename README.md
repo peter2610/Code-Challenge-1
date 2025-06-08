@@ -70,3 +70,31 @@ fare.js:28 Panda Pikipiki! Safari Njema!
 paste the code into your browser console or run with node.js .
 enter the distance when prompted // fare is kilometers.
 see fare breakdown and total.
+
+## mobile money estimator
+
+javascript program to estimate mobile money transaction fees.
+automatically calculates the fee 1.5% with limits between kes 10 to kes 70, then returns the total amount to be debited.
+
+### features
+
+calculates the transaction fee based on amount.
+caps minimum fee at kes 10 and maximum of kes 70.
+javascript functions and lexical scoping used
+
+### how to use
+
+open in a browser or console(js)
+enter the amount you want to send
+then you will see breakdown: amount, transaction and total to debited.
+
+### sample output
+
+Boda Fare Breakdown:
+fare.js:12 Umbali: 3 km
+fare.js:13 Ukikalia Pikipiki (Base Fare): KES 50
+fare.js:14 Mpaka Uko (Distance Fare): KES 45
+fare.js:15 Jumla ya Fare: KES 95
+
+fare.js:28 Panda Pikipiki! Safari Njema!
+fee.js:1 Uncaught SyntaxError: Identifier 'input' has already been declared (at fee.js:1:1)
