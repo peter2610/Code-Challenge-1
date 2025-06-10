@@ -18,7 +18,7 @@ function chaiCalculator(numberOfCups) {
     };
   };
 }
-// Prompt the user to enter the number of cups:
+// Prompt the user to enter the number of cups :
 const input = prompt("How many cups of Chai Bora would you like to make?");
 const cups = parseInt(input);
 

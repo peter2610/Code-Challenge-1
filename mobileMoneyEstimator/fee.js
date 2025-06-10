@@ -7,8 +7,8 @@ function createTransactionFeeEstimator() {
 return function estimateTransactionFee(amountToSend) {
     // Validate input: must be a number greater than 0
   if (isNaN(amountToSend) || amountToSend <= 0) {
-      console.log("unatuma ngapi?");
-      return;
+      return "invalid amount?:";
+      
     }
 
     const rawFee = amountToSend * feeRate;

@@ -4,7 +4,7 @@ function createBodaFareCalculator(baseFare = 50, chargePerKm = 15) {
   return function calculateFare(distanceInKm) {
     // Input validation: check if input is a valid number and not negative
     if (isNaN(distanceInKm) || distanceInKm < 0) {
-      return "Unafika wapi Mkubwa? Kilometer ngapi?:";
+      return "enter valid number?:";
     }
     // Calculate the total fare and the distance-based charge
 const totalFare = baseFare + (distanceInKm * chargePerKm);
